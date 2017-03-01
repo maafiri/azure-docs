@@ -30,7 +30,7 @@ The following steps walk you through creating a self-signed certificate using ma
 1. From a computer running Windows 10, download and install the [Windows Software Development Kit (SDK) for Windows 10](https://dev.windows.com/en-us/downloads/windows-10-sdk).
 2. After installation, you can find the makecert.exe utility under this path: 'C:\Program Files (x86)\Windows Kits\10\bin\<arch>'. Open a command prompt as administrator and navigate to the location of the makecert utility. You can use the following example:
 
-		cd C:\Program Files (x86)\Windows Kits\10\bin\x64
+		cd C:"\Program Files (x86)\Windows Kits\10\bin\x64"
 
 3. Create and install a certificate in the Personal certificate store on your computer. The following example creates a corresponding *.cer* file that you upload to Azure when configuring P2S. Replace 'ARMP2SRootCert' and 'ARMP2SRootCert.cer' with the name that you want to use for the certificate.<br><br>The certificate will be located in your 'Certificates - Current User\Personal\Certificates'.
    
